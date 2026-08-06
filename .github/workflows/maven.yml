@@ -54,7 +54,7 @@ jobs:
 
       - name: Deploy
         if: always()
-        uses: JamesIves/github-pages-deploy-action@v4.8.0
+        uses: peaceiris/actions-gh-pages@v4.1.0
         with:
          folder: public/extent-reports
          token: ${{ secrets.GITHUB_TOKEN }}
