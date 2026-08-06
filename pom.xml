@@ -69,6 +69,11 @@
 		</dependency>
 
 	</dependencies>
+	<properties>
+
+		<maven.compiler.source>14 </maven.compiler.source>
+		<maven.compiler.target>14</maven.compiler.target>
+	</properties>
 	<build>
 		<plugins>
 
@@ -86,7 +91,7 @@
 						<isLambdaTest>${isLambdaTest}</isLambdaTest>
 						<isHeadless>${isHeadless}</isHeadless>
 					</systemPropertyVariables>
-				
+
 
 				</configuration>
 
