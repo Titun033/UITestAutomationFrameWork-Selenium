@@ -175,6 +175,13 @@ public abstract class BrowserUtility {
 		return path;
 	}
 	
+	public void quit() {
+		if(driver.get()!=null) {
+			driver.get().quit();
+			driver.remove();
+		}
+	}
+	
 	
 
 }

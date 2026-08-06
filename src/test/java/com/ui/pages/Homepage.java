@@ -37,11 +37,6 @@ public final class Homepage extends BrowserUtility {
 		
 	}
 	
-	public void quit() {
-		if(getDriver()!=null) {
-			getDriver().quit();
-		}
-		
-	}
+	
 
 }

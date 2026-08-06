@@ -14,7 +14,7 @@ public class JSONUtility {
 	public static Environment readJSON(Env env) {
 		
 		Gson gson = new Gson();
-		File jsonFile= new File(System.getProperty("user.dir")+"\\config\\config.json");
+		File jsonFile= new File(System.getProperty("user.dir")+File.separator+"config"+File.separator+"config.json");
 		FileReader jsonFilereader = null;
 		try {
 			jsonFilereader = new FileReader(jsonFile);
