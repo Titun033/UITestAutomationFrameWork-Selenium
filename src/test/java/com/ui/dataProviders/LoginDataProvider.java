@@ -10,8 +10,8 @@ import java.util.List;
 import org.testng.annotations.DataProvider;
 
 import com.google.gson.Gson;
-import com.ui.pojo.TestData;
-import com.ui.pojo.User;
+import com.ui.request.model.TestData;
+import com.ui.request.model.User;
 import com.utility.CSVUtility;
 import com.utility.ExcelReaderUtility;
 public class LoginDataProvider {

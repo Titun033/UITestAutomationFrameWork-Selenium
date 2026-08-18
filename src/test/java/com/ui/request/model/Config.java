@@ -1,4 +1,4 @@
-package com.ui.pojo;
+package com.ui.request.model;
 
 import java.util.Map;
 

@@ -1,4 +1,4 @@
-package com.ui.pojo;
+package com.ui.request.model;
 
 public class Environment {
      private String url;

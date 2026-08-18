@@ -10,7 +10,7 @@ import java.util.List;
 
 import com.opencsv.CSVReader;
 import com.opencsv.exceptions.CsvValidationException;
-import com.ui.pojo.User;
+import com.ui.request.model.User;
 
 public class CSVUtility {
 	

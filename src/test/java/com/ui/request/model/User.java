@@ -1,4 +1,4 @@
-package com.ui.pojo;
+package com.ui.request.model;
 
 public class User {
 	public User(String emailAddress, String password) {

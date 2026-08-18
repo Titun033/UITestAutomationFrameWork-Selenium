@@ -9,7 +9,7 @@ import org.testng.annotations.Test;
 import org.apache.logging.log4j.Logger;
 
 import com.ui.pages.Homepage;
-import com.ui.pojo.User;
+import com.ui.request.model.User;
 import com.utility.LoggerUtility;
 
 @Listeners({com.ui.listeners.TestListener.class})
