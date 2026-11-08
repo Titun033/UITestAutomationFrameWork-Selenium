@@ -24,7 +24,7 @@ public class LambdaTestUtility {
         ltOptions.put("build", "Selenium 4");
         ltOptions.put("name", testName);
         ltOptions.put("platformName", "Windows 10");
-        ltOptions.put("seCdp", true);
+        ltOptions.put("seCdp", true); 
         ltOptions.put("selenium_version", "latest");
         capabilities.setCapability("LT:Options", ltOptions);
         capabilitesLocal.set(capabilities);

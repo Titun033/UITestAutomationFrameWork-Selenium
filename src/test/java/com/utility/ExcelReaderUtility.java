@@ -12,7 +12,7 @@ import org.apache.poi.ss.usermodel.Row;
 import org.apache.poi.xssf.usermodel.XSSFSheet;
 import org.apache.poi.xssf.usermodel.XSSFWorkbook;
 
-import com.ui.request.model.User;
+import com.ui.pojo.User;
 
 public class ExcelReaderUtility {
 	public static Iterator<User> readExcelFile(String fileName) {

@@ -6,8 +6,8 @@ import java.io.FileReader;
 
 import com.constants.Env;
 import com.google.gson.Gson;
-import com.ui.request.model.Config;
-import com.ui.request.model.Environment;
+import com.ui.pojo.Config;
+import com.ui.pojo.Environment;
 
 public class JSONUtility {
 	

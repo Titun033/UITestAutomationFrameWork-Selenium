@@ -1,7 +1,6 @@
 package com.utility;
 
 import java.io.File;
-import java.io.FileNotFoundException;
 import java.io.FileReader;
 import java.io.IOException;
 import java.util.ArrayList;
@@ -10,7 +9,7 @@ import java.util.List;
 
 import com.opencsv.CSVReader;
 import com.opencsv.exceptions.CsvValidationException;
-import com.ui.request.model.User;
+import com.ui.pojo.User;
 
 public class CSVUtility {
 	
