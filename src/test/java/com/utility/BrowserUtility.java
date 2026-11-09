@@ -168,7 +168,6 @@ public abstract class BrowserUtility {
 		try {
 			FileUtils.copyFile(screenshotData, screenshotFile);
 		} catch (IOException e) {
-			// TODO Auto-generated catch block
 			e.printStackTrace();
 		}
 		
