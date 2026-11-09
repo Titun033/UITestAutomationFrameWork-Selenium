@@ -15,7 +15,7 @@ public class LoginTest extends TestBase{
 	@Test(description= "Verifies if the valid user is able to login into the application", groups= {"e2e","sanity"}, dataProviderClass=com.ui.dataProviders.LoginDataProvider.class,dataProvider="LoginTestDataProvider")
 	public void loginTest(User user) {
 		
-		assertEquals(homePage.goToLoginPage().doLoginWith(user.getEmailAddress(), user.getPassword()).getUserName(), "Titun Chakrabort"); 
+		assertEquals(homePage.goToLoginPage().doLoginWith(user.getEmailAddress(), user.getPassword()).getUserName(), "Titun Chakrabort");  
 		
 	}
 
