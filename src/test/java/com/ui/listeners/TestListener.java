@@ -33,6 +33,22 @@ public class TestListener implements ITestListener {
 	public void onTestSuccess(ITestResult result) {
 		logger.info(result.getMethod().getMethodName()+ " "+"PASSED");
 		ExtentReporterUtility.getTest().log(Status.PASS,result.getMethod().getMethodName()+ " "+"PASSED" );
+		
+		Object testClass=result.getInstance();
+		 BrowserUtility browserInstance=((TestBase)testClass).getInstance();
+		 if(browserInstance!=null) {
+			 logger.info("Capturing Screenshot for the Passed Tests:");
+			 String screenshotPath=browserInstance.takeScreenshot(result.getMethod().getMethodName());
+			 if(screenshotPath!=null) {
+				 logger.info("Attaching Screenshot to the HTML File:");
+				 ExtentReporterUtility.getTest().addScreenCaptureFromPath(screenshotPath);
+			 }else {
+				 logger.warn("Screenshot path is null.");
+			 }
+			
+		 }else {
+			 logger.warn("BrowserUtility instance  is null.");
+		 }
 	}
 
 	public void onTestFailure(ITestResult result) {
