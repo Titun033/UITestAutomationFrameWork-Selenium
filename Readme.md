@@ -8,14 +8,14 @@ The framework leverages various libraries and tools to facilitate data-driven te
 
 ## 🚀 About Me
 Hi, My Name is Titun Chakraborty and I have 9 years of experience in Automation Testing using technologies like Selenium Webdriver,
-RestAssured, Appium. 
+RestAssured, Jenkins, GitHubActions. 
 
 My major expertise is in Java Programming Language.
 
 
 ## Author
 
-- [@jatin99](https://github.com/Titun033)
+- [@Titun033](https://github.com/Titun033)
 - EmailAddress: titunchakraborty55@gmail.com
 
 
