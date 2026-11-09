@@ -38,7 +38,7 @@ public class TestListener implements ITestListener {
 		 BrowserUtility browserInstance=((TestBase)testClass).getInstance();
 		 if(browserInstance!=null) {
 			 logger.info("Capturing Screenshot for the Passed Tests:");
-			 String screenshotPath=browserInstance.takeScreenshot(result.getMethod().getMethodName());
+			 String screenshotPath=browserInstance.takeScreenShot(result.getMethod().getMethodName());
 			 if(screenshotPath!=null) {
 				 logger.info("Attaching Screenshot to the HTML File:");
 				 ExtentReporterUtility.getTest().addScreenCaptureFromPath(screenshotPath);
@@ -61,7 +61,7 @@ public class TestListener implements ITestListener {
 		 BrowserUtility browserInstance=((TestBase)testClass).getInstance();
 		 if(browserInstance!=null) {
 			 logger.info("Capturing Screenshot for the Failed Tests:");
-			 String screenshotPath=browserInstance.takeScreenshot(result.getMethod().getMethodName());
+			 String screenshotPath=browserInstance.takeScreenShot(result.getMethod().getMethodName());
 			 if(screenshotPath!=null) {
 				 logger.info("Attaching Screenshot to the HTML File:");
 				 ExtentReporterUtility.getTest().addScreenCaptureFromPath(screenshotPath);
